@@ -19,7 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={notoSans.className}>{children}</body>
+      <body className={notoSans.className}>
+        {children}</body>
     </html>
   );
 }
