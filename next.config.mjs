@@ -1,4 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.mjs
+import withSvgr from 'next-svgr';
 
-export default nextConfig;
+export default withSvgr({
+  webpack(config, options) {
+    // ... другие настройки webpack если они у вас есть
+    return config;
+  },
+});

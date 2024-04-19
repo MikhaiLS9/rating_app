@@ -29,6 +29,7 @@
   font-weight: 600;
   line-height: 19px;
   background: rgb(222, 0, 0);
+  padding: 3px 8px;
 }
 .green {
   color: rgb(29, 196, 126);
@@ -36,11 +37,13 @@
   font-size: 12px;
   font-weight: 700;
   line-height: 12px;
+  padding: 5px 8px;
 }
 .ghost {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
   font-size: 12px;
+  padding: 3px 5px;
 }
 .grey {
   color: var(--text-button-color);
@@ -48,6 +51,6 @@
   font-weight: 600;
   line-height: 14px;
   text-align: center;
-
+  padding: 5px 10px;
   background: rgb(179, 192, 217);
 }
